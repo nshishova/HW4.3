@@ -7,7 +7,7 @@ public class Main {
         CreditPaymentService service = new CreditPaymentService();
 
         double interestRate = 9.99; // %
-        int loan  = 1000000; // rub
+        int loan = 1000000; // rub
 
 
         System.out.println("Monthly payment for 12mo term");
@@ -19,6 +19,6 @@ public class Main {
 
         System.out.println();
         System.out.println("Monthly payment for 36mo term");
-        System.out.println((service.calculate(interestRate,36, loan)));
+        System.out.println((service.calculate(interestRate, 36, loan)));
     }
 }
